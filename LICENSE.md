@@ -1,6 +1,6 @@
 # License
 
-You can use pyx-candy under the terms of the MIT License:
+You can use pyxcandy under the terms of the MIT License:
 
 > Copyright (c) 2019: Olivier Fisette.
 >
