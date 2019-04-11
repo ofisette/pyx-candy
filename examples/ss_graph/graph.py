@@ -8,7 +8,7 @@ from pyx import *
 from pyx.graph import graphxy, axis, data
 from pyx.graph.axis import parter, texter
 
-from pyxcandy import (read_dat, ssdata, ssplot)
+from pyxcandy import read_dat, ssdata, ssplot
 
 text.set(cls=text.LatexRunner, texenc='utf-8')
 text.preamble(r'\usepackage[utf8]{inputenc}')
