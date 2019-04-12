@@ -56,7 +56,7 @@ def trend(series, n):
     minvals = []
     maxvals = []
     running = []
-    for val in vals:
+    for val in series:
         running.append(val)
         if len(running) > n:
             running.pop(0)
