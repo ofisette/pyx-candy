@@ -152,8 +152,8 @@ def fakebaraxis(ticks, painter=fakebarpainter(),*args, **kwargs):
 
     Use "keyticks" to create the ticks expected by this function."""
     return axis.linear(
-        min=-0.5,
-        max=len(ticks)-0.5,
+        min=-0.75,
+        max=len(ticks)-0.25,
         parter=None,
         manualticks=ticks,
         painter=painter,
